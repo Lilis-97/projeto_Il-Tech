@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+:root{
+    --cor-de-fundo: #002242;
+    --branco-principal: #FFFFFF;
+    --laranja: #E65D0D;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: system-ui, -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--branco-principal);
+    align-items: center;
+}
+.primeiro{
+    background-image: url(Img/inicio.jfif);
+    background-size: cover;
+    background-position: top;
+    height: 1000px; 
+    padding: 20px;
+}
+.Container__nos{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 100vh;
+    align-items: center; 
+}
+.nos{
+    display: flex;
+}
+.nos h2{
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 200px;
+    /* margin-right: 300px; */
+}
+.nos p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right:300px ;
+
+}
+.nos img{
+    width: 400px;
+    height: 400px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+.obs{
+    color: var(--laranja);
+    font-size: 20px;
+    text-decoration: solid;
+}
+.curso h2{
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+.curso p{
+    color: var(--laranja);
+    font-size: 25px;
+    margin-left: 200px;
+    
+}
+.curso img{
+    text-align: center;
+    margin-left: 200px;
+}
+.carga h2{
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+.carga li{
+    margin-top: 7px;
+    margin-left: 200px;
+}
+.obs2{
+    margin-top: 16px;
+    margin-left: 200px;
+}
+.formulario h2{
+    font-size: 35px;
+    margin-top: 70px;
+    margin-left: 580px;
+}
+.formulario label{
+    font-size: 25px;
+    margin-left: 640px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.formulario input, textarea{
+    border-radius: 5px;
+    margin-left: 640px;
+    font-size: 20px;
+}
+.formulario input{
+    font-size: 20px;
+}
+.redes{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 720px;
+    /* width: 50px;
+    height: 50px; */
+    padding: 20px;
+}
+.redes img{
+    align-items: center;
+    width: 40px;
+    padding: 3px;
+}
+footer{
+    background-color: grey;
+    text-align: center;padding: 2px;
+}
